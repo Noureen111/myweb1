@@ -1,0 +1,77 @@
+*{
+    font-family: sans-serif !important;
+}
+
+.navbar{
+    background-color: #dc143c !important;
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+}
+
+.nav-link:hover{
+    background-color: white !important;
+    color: #dc143c !important;
+    border-radius: 20px !important;
+}
+
+.fa-pencil{
+    color: white !important;
+    font-size: 50px !important;
+}
+
+#navbarNav{
+    margin-left: 500px !important;
+}
+
+.btn-primary{
+    background-color: #dc143c !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: #dc143c !important;
+}
+
+.btn-primary:hover {
+    opacity: 0.5 !important;
+}
+
+.card{
+    height: auto !important;
+    text-align: center !important;
+}
+
+.fa-facebook {
+    background: #3B5998 ;
+    color: white ;
+}
+
+#tick{
+    height: 400px !important;
+    width: 400px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+      width: auto !important;
+    }
+
+    #navbarNav{
+        margin-left: 330px !important;
+    }
+
+    .nav-link:hover{
+        background-color: white !important;
+        color: #dc143c !important;
+        border-radius: 20px !important;
+        text-align: center !important;
+    }
+
+    #smile{
+        margin-left: -40px !important;
+    }
+    
+  }
